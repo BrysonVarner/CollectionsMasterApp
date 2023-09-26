@@ -229,7 +229,10 @@ namespace CollectionsMasterConsoleUI
 
         private static void ReverseArray(int[] array)
         {
-            
+            Array.Reverse(array);
+            foreach (var item in array)
+                Console.WriteLine($"{item}");
+
         }
 
         /// <summary>
